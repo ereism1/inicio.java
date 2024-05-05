@@ -12,9 +12,9 @@ public class App {
         Servico barba = new Servico(1 , "barba",  30);
         System.out.println(Servico.getValor());
 
-        Cliente cliente = new Cliente(1, "thiago", "M", "464646464464", "rua jabá");
+        Cliente cliente = new Cliente(1, "gerosvaldo", "jfoejfej", "fffff");
         System.out.println(cliente.getNome());
-         Usuario usuario = new Usuario(1, "Eduardo", "fff" );
+        Usuario usuario = new Usuario(1 , "Eduardo" , "senha");
         System.out.println( usuario.getNome());
 
     
