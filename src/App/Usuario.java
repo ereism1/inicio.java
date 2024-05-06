@@ -1,9 +1,5 @@
 package App;
 
-
-
-import java.sql.Date;
-
 public class Usuario extends Pessoa {
 
     private String senha;
@@ -14,7 +10,7 @@ public class Usuario extends Pessoa {
         this.senha = senha;
     }
 
-    public Usuario(int id, String nome, char sexo, Date dataNascimento, String telefone, String email, String rg,
+    public Usuario(int id, String nome, char sexo, String dataNascimento, String telefone, String email, String rg,
             String senha, String nivelAcesso) {
         super(id, nome, sexo, dataNascimento, telefone, email, rg);
         this.senha = senha;
